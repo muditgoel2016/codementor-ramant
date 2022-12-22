@@ -13,6 +13,7 @@ var twoSum = function(nums, target) {
         if (hashMap[counter_part]) {
             if (hashMap[counter_part].length) {
                 return_val = [i, hashMap[counter_part][0]];
+                return return_val;
             }
         }
         if (hashMap[nums[i]]) {
